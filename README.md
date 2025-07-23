@@ -42,6 +42,7 @@ campaign-performance-modeling/
 │
 ├── README.md
 ├── data/ # Synthetic customer & campaign dataset
+| ├── synthetic_campaign_marketing_data.ipynb
 │ └── campaign_data.csv
 ├── notebooks/
 │ ├── 01_uplift_analysis.ipynb
