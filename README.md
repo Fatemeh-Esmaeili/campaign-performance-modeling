@@ -17,6 +17,12 @@ This project simulates the launch of a marketing campaign and applies statistica
 
 ---
 
+## 📋 Data Schema
+
+The dataset columns and their descriptions are defined in the [`data_schema.yaml`](data_schema.yaml) file.
+
+---
+
 ## 🧪 Techniques & Concepts
 
 - A/B Testing & Lift Calculation  
