@@ -1,0 +1,63 @@
+customer_id:
+  type: string
+  description: Unique customer identifier (e.g., CUST00001)
+
+age:
+  type: integer
+  description: Customer's age in years (18-70)
+
+gender:
+  type: string
+  description: Customer gender; one of 'Male', 'Female', 'Other'
+
+income:
+  type: integer
+  description: Annual income in NZD (synthetic values, minimum 15000)
+
+region:
+  type: string
+  description: Customer's regional location (North, South, East, West)
+
+tenure_years:
+  type: number
+  description: Years as customer (exponential distribution)
+
+received_campaign:
+  type: integer
+  description: Campaign exposure flag (1 = received, 0 = not received)
+
+responded:
+  type: integer
+  description: Whether customer responded (1 = yes, 0 = no)
+
+spend_last_month:
+  type: number
+  description: Spending amount last month
+
+spend_this_month:
+  type: number
+  description: Spending amount this month (post campaign)
+
+channel:
+  type: string
+  description: Campaign delivery channel (Email, SMS, Phone, App Notification)
+
+product_category:
+  type: string
+  description: Product category (Loans, Credit Card, Savings, Insurance, None)
+
+is_high_value:
+  type: integer
+  description: High-value flag (1 = yes, 0 = no)
+
+days_since_last_purchase:
+  type: integer
+  description: Days since last purchase
+
+credit_score:
+  type: integer
+  description: Synthetic credit score (300-850)
+
+customer_segment:
+  type: integer
+  description: Customer segment from KMeans clustering on age and income
