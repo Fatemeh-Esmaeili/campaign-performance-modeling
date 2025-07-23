@@ -41,10 +41,10 @@ This project simulates the launch of a marketing campaign and applies statistica
 campaign-performance-modeling/
 │
 ├── README.md
-├── data/ # Synthetic customer & campaign dataset
-| ├── synthetic_campaign_marketing_data.ipynb
+├── data/ # Synthetic customer & campaign dataset| 
 │ └── campaign_data.csv
 ├── notebooks/
+| ├── synthetic_campaign_marketing_data.ipynb  
 │ ├── 01_uplift_analysis.ipynb
 │ ├── 02_customer_segmentation.ipynb
 │ └── 03_dashboard_visuals.ipynb
