@@ -47,8 +47,10 @@ The dataset columns and their descriptions are defined in the [`data/data_schema
 campaign-performance-modeling/
 │
 ├── README.md
-├── data/ # Synthetic customer & campaign dataset| 
-│ └── campaign_data.csv
+├── data/ # Synthetic customer & campaign dataset
+| ├── campaign_data.csv
+| ├── data_schema.json  
+│ └── data_schema.yaml
 ├── notebooks/
 | ├── synthetic_campaign_marketing_data.ipynb  
 │ ├── 01_uplift_analysis.ipynb
