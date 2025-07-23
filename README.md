@@ -35,9 +35,9 @@ This project simulates the launch of a marketing campaign and applies statistica
 - *(Optional: Power BI / Tableau for BI dashboarding)*  
 
 ---
-```
-## 📁 Project Structure
 
+## 📁 Project Structure
+```
 campaign-performance-modeling/
 │
 ├── README.md
