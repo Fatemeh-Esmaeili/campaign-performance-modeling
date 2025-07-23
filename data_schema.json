@@ -1,0 +1,66 @@
+{
+  "customer_id": {
+    "type": "string",
+    "description": "Unique customer identifier (e.g., CUST00001)"
+  },
+  "age": {
+    "type": "integer",
+    "description": "Customer's age in years (18-70)"
+  },
+  "gender": {
+    "type": "string",
+    "description": "Customer gender, one of 'Male', 'Female', 'Other'"
+  },
+  "income": {
+    "type": "integer",
+    "description": "Annual income in NZD (synthetic values, clipped at 15,000 minimum)"
+  },
+  "region": {
+    "type": "string",
+    "description": "Customer's regional location (North, South, East, West)"
+  },
+  "tenure_years": {
+    "type": "number",
+    "description": "Number of years the customer has been with the company (exponential distribution)"
+  },
+  "received_campaign": {
+    "type": "integer",
+    "description": "Campaign exposure flag (1 = received, 0 = not received)"
+  },
+  "responded": {
+    "type": "integer",
+    "description": "Whether the customer responded to the campaign (1 = yes, 0 = no)"
+  },
+  "spend_last_month": {
+    "type": "number",
+    "description": "Customer's spending amount in the previous month"
+  },
+  "spend_this_month": {
+    "type": "number",
+    "description": "Customer's spending amount in the current month (after campaign)"
+  },
+  "channel": {
+    "type": "string",
+    "description": "Channel through which the campaign was delivered (Email, SMS, Phone, App Notification)"
+  },
+  "product_category": {
+    "type": "string",
+    "description": "Category of product offered (Loans, Credit Card, Savings, Insurance, None)"
+  },
+  "is_high_value": {
+    "type": "integer",
+    "description": "Flag indicating if the customer is high-value based on income and tenure (1 = yes, 0 = no)"
+  },
+  "days_since_last_purchase": {
+    "type": "integer",
+    "description": "Number of days since the customer's last purchase"
+  },
+  "credit_score": {
+    "type": "integer",
+    "description": "Synthetic credit score ranging between 300 and 850"
+  },
+  "customer_segment": {
+    "type": "integer",
+    "description": "Cluster segment assigned using KMeans on age and income"
+  }
+}
