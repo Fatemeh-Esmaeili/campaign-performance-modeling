@@ -32,7 +32,7 @@ The dataset columns and their descriptions are defined in the [`data/data_schema
 ---
 
 ## ⚙️ Tools Used
-
+- **SQL**
 - **Python**: pandas, numpy, scikit-learn, matplotlib, seaborn, plotly  
 - **Streamlit** (for optional dashboard)  
 - **Jupyter Notebooks**  
