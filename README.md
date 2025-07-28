@@ -1,6 +1,6 @@
 # Campaign Performance Modelling
 
-A data-driven project exploring how to evaluate and optimize the performance of a marketing campaign using uplift analysis, A/B testing, and customer segmentation. This end-to-end workflow simulates a real-world business case faced by marketing teams at banks or large enterprises.
+A data-driven project exploring how to evaluate and optimize the performance of a marketing campaign using uplift analysis, A/B testing, and customer segmentation. This end-to-end workflow simulates a real-world business case faced by marketing teams at banks.
 
 ---
 
