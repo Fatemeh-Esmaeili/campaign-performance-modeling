@@ -31,7 +31,7 @@ The dataset columns and their descriptions are defined in the [`data/data_schema
 
 ## Tools Used
 - **SQL**
-- **Python**: pandas, numpy, scikit-learn, matplotlib, seaborn, scipy 
+- **Python**: pandas, numpy, scikit-learn, matplotlib, seaborn, scipy, causalml
 - **Jupyter Notebooks**  
 
 
