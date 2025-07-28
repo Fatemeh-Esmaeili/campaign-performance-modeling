@@ -10,7 +10,7 @@ A data-driven project simulating how marketing teams in banks or large enterpris
 This end-to-end workflow simulates a marketing campaign launch, applies statistical and machine learning techniques, and provides insight into customer response behavior.
 
 ### Objectives:
-- Evaluate the **true impact** of a marketing campaign using A/B testing and **uplift modeling*
+- Evaluate the **true impact** of a marketing campaign using A/B testing and **uplift modeling**
 - Segment customers based on their **response patterns and predicted uplift scores**
 - Recommend **data-driven targeting strategies** to optimize campaign ROI
 
