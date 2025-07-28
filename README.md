@@ -33,7 +33,7 @@ The dataset columns and their descriptions are defined in the [`data/data_schema
 - **SQL**
 - **Python**: pandas, numpy, scikit-learn, matplotlib, seaborn, scipy 
 - **Jupyter Notebooks**  
-- *(Optional: Power BI / Tableau for BI dashboarding)*  
+
 
 ---
 
